@@ -7,6 +7,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.table-header-wrapper {
+	display: inline-flex;
+	align-items: baseline;
+	width: 100%;
+}
+
+.table-header-wrapper a {
+	color: #787878 !important;
+    opacity: 0.33;
+	border-bottom: none;
+}
+
+.table-header-wrapper * {
+	flex: auto;
+}
+
+.table-header-wrapper a:hover {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+	opacity: 100;
+	color: #49bf9d !important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2619,7 +2645,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 30%;
+		width: 27%;
 
 		
 		overflow: auto;
@@ -2660,7 +2686,7 @@ input, select, textarea {
 		#header .image.avatar {
 			/*margin: 0 0 1em 0;
 			width: 6.25em;*/
-			/* flex: 1 2 1 !important; */
+			/* flex: 1 50 0 !important; */
 			min-width: 2.25em;
 			max-width: 16.25em;
 		}
