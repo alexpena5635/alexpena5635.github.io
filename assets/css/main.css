@@ -33,6 +33,11 @@
 	color: #49bf9d !important;
 }
 
+video {
+	width: 100% !important;
+	height: auto !important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2081,7 +2086,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.15;
 			position: absolute;
 			top: 0;
 			width: 100%;
